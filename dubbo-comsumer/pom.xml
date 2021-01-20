@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>dubbo-comsumer</artifactId>
+  <dependencies>
+    <dependency>
+      <artifactId>spring-boot-starter</artifactId>
+      <groupId>org.springframework.boot</groupId>
+    </dependency>
+    <dependency>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <groupId>org.springframework.boot</groupId>
+    </dependency>
+
+    <dependency>
+      <artifactId>dubbo-interface</artifactId>
+      <groupId>com.zwl</groupId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.dubbo/dubbo-spring-boot-starter -->
+    <dependency>
+      <artifactId>dubbo-spring-boot-starter</artifactId>
+      <groupId>org.apache.dubbo</groupId>
+      <version>2.7.1</version>
+    </dependency>
+    <dependency>
+      <artifactId>dubbo</artifactId>
+      <groupId>org.apache.dubbo</groupId>
+      <version>2.7.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.dubbo/dubbo-dependencies-zookeeper -->
+    <dependency>
+      <artifactId>dubbo-dependencies-zookeeper</artifactId>
+      <groupId>org.apache.dubbo</groupId>
+      <type>pom</type>
+      <version>2.7.1</version>
+    </dependency>
+  </dependencies>
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>spring-rocketmq</artifactId>
+    <groupId>com.zwl</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+</project>
